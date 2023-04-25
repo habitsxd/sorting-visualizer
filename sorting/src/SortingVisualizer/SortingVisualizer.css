@@ -1,0 +1,47 @@
+body{
+  padding-top: 20%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+
+.array-container {
+  position: absolute; /* Change from 'absolute' to 'fixed' */
+  top: 0; /* Add 'top' property to align with the top of the page */
+  left: 100px;
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.array-bar {
+  width: 10px;
+  display: inline-block;
+  margin: 0 1px;
+  transform-origin: top; /* Add transform-origin to make it grow from top */
+  background-color: #4285f4;
+  /*transition: height 0.25s ease, background-color 0.25s ease, transform 0.25s ease;*/
+}
+
+.swap {
+  background-color: #ff5722;
+}
+
+
+.buttons-container {
+  position: absolute;
+  bottom: 50px; /* Position the buttons 50px from the bottom of the page */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+
+
+
+
+  
+  
+  
